@@ -1,0 +1,44 @@
+@charset "UTF-8";
+
+body {
+  background-color: #fee;
+  /*
+  background-image: url(e384BWkmv_g.jpg);
+  background-repeat: repeat-y;
+  */
+}
+div {
+  background: #0bd;
+  width: 500px;
+  height: 300px;
+  margin-top: 30px;
+  margin-left: 100px;
+}
+h1 {
+  color: rgba(206, 209, 179, .5);
+  background-color: #faa;
+  width: 250px;
+  border-width: thick;
+  border-style: double dotted solid ridge;
+}
+h2 {
+  color: rgba(176, 127, 114, .5);
+  border-width: thick;
+  border-style: solid;
+}
+h3 {
+  color: rgba(206, 209, 179, .5);
+}
+h4 {
+  color: rgba(124, 120, 137, .5);
+}
+p {
+  font-size:20px;
+  line-height:1.7;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+  text-align:left;
+  color: rgba(10, 130, 160, .5);
+}
+.gray{
+  color:#999;
+}

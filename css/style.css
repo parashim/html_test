@@ -72,8 +72,8 @@ img {
   border-radius: 5px;
   padding: 18px 32px;
 }
-.button:hober {
-  background: #00900aa;
+.button:hover {
+  background: #0090aa;
 }
 .big-bg {
   background-size: cover;
@@ -81,7 +81,8 @@ img {
   background-repeat: no-repeat;
 }
 #home {
-  background-image: url(../images/main-bg.jpg);
+  background-image: url(../images/main-bg.jpg),linear-gradient(#c9ffbf,#ffafbd);
+  background-blend-mode: luminosity;
   min-height: 100vh;
 }
 #home .page-title{
